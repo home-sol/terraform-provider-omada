@@ -1,0 +1,15 @@
+{
+    "name": "terraform-provider-dev",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"GOVERSION": "1.18"
+		}
+	},
+
+	"extensions": [
+		"golang.Go"
+	],
+
+    "remoteUser": "vscode"
+}
